@@ -84,3 +84,61 @@ body {
 .btn:active {
 	opacity: 0.6;
 }
+
+.hero {
+	padding-top: 56px;
+	padding-bottom: 250px;
+	position: relative;
+}
+
+.hero__img {
+	position: absolute;
+	left: -100px;
+	top: 0;
+}
+
+.hero__container {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	position: relative;
+}
+
+.hero__img2 {
+	position: absolute;
+	bottom: -450px;
+	right: 0;
+}
+
+.hero__title {
+	font-family: Livvic;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 100px;
+	color: #fff;
+}
+
+.hero__title span {
+	color: #f67e7e;
+}
+
+.hero__info {
+	max-width: 445px;
+	width: 100%;
+}
+
+.hero__info span {
+	display: block;
+	width: 50px;
+	height: 4px;
+	background-color: #79c8c7;
+	margin-bottom: 79px;
+}
+
+.hero__text {
+	font-family: Livvic;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	color: #fff;
+}
